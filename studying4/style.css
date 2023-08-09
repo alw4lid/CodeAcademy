@@ -1,0 +1,24 @@
+table{
+    margin: auto;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+tr{
+    background-color: beige;
+}
+
+th{
+    font-size: x-large;
+    color: rgb(221, 132, 16);
+}
+tr :nth-child(1){
+    color: rgb(29, 189, 107);
+}
+tr :nth-child(2){
+    color: rgb(59, 124, 185);
+}
+
+tr :nth-child(3){
+    color: rgb(220, 59, 15);
+}

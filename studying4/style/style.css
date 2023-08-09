@@ -1,0 +1,79 @@
+    
+       
+body{
+    background-color: aliceblue;
+    font-size: xx-large;
+}
+.head{
+    margin: auto;
+    
+    padding: 10px;
+    font-size: x-large;
+    background-color: rgb(172, 220, 76);
+}
+.head:hover{
+    background-color: #393333;
+
+}
+.about{
+    margin: auto;
+   
+    padding-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+.about h1{
+    color: rgb(226, 131, 23);
+}
+.hobby{
+    margin: auto;
+    padding-top: 20px;
+    padding: 10px;
+background-color: #fff;
+
+}
+.hobby li{
+    font-size: medium;
+}
+.hobby img{
+    width: 30%;
+    height: 20%;
+}
+
+.contact{
+    width: 500px;
+    height: 500px;
+    /* background: red;
+    background-image: url(../images/my_cat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: linear-gradient(to right bottom, rgb(138, 180, 138), rgb(64, 204, 164));
+}
+
+input[type="submit"]{
+    border-radius: 20px;
+}
+
+
+.text{
+    text-align: center;
+}
+.text h1{
+    text-shadow: 2px 1px  red;
+    
+}
+.text p{
+    text-indent: 9px;
+    text-transform: capitalize;
+
+}
+.text h1{
+    font-size: 60px;
+}
+
+.text p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
