@@ -59,7 +59,7 @@ function DataLoop(){
             <td> ${arrProducts[i].pprice} </td>
             <td> ${arrProducts[i].pcategory} </td>
             <td> ${arrProducts[i].pdescription} </td>
-            <td> <button id='delete' onclick="deleteData(${x})"> Delete </button> </td>
+            <td> <button id='delete' onclick="deleteData(${i})"> Delete </button> </td>
             <td> <button id='update' onclick="updateData()"> Update </button> </td>
         </tr>
         `;
@@ -79,7 +79,7 @@ productdescrition.value = ""
 
 
 function deleteData(ele){
-    arrProducts.splice('Products',1 )
+    arrProducts.splice(ele,1 )
     localStorage.setItem('Products', JSON.stringify(arrProducts))
     DataLoop()
         
