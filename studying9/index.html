@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C R U D Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <label>Product Name</label>
+        <input type="text" id="productname" required>
+        <br/>
+        <br/>
+    
+        <label>Product Price</label>
+        <input type="text" id="productprice" required>
+        <br/>
+        <br/>
+    
+        <label>Product Category</label>
+        <input type="text" id="productcategory" required>
+        <br/>
+        <br/>
+    
+        <label>Product Description</label>
+        <input type="text" id="productdescrition" required>
+        <br/>
+        <br/>
+    
+        <button id="submit">Add Product</button>
+        <button id="update" class="show">Save</button>
+        <br/>
+        <br/>
+    </div>
+    
+        <table style="border: solid;" width="100%" >
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+        
+                    <th>Product Name</th>
+        
+                    <th>Product Price</th>
+        
+                    <th>Product category</th>
+        
+                    <th>Product Description</th>
+        
+                    <th>Product Delete</th>
+        
+                    <th>Product update</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+         
+        </table>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.quantity-controls {
+    display: flex;
+    size: 15px;
+    /* border-radius: 5%; */
+}
+
+button {
+    background-color: lightnavyblue;
+    border: rgb(41, 205, 33);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 8%;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgba(76, 148, 225, 0.692);
+    color: black;
+}
+.box {
+    background-color: rgb(138, 103, 103);
+}
+
+tbody tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+tbody tr:nth-child(odd){
+    background-color: blanchedalmond;
+}
+
+#delete{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+}
+
+#update{
+    background-color: green;
+    color: white;
+    border-radius: 20%;
+}
+
+#submit{
+    transform: 1s;
+    box-shadow: 0.5px 0.5px 0.5px ;
+
+}
+
+#submit:hover{
+    background-color: rgb(48, 187, 48);
+    transform: 1s;
+    scale: 1.1;
+    box-shadow: 1px 2px 2px ;
+
+}
+
+input[type="text"]{
+    border-radius: 8%;
+}
+
+.show{
+    display: none;
+}
