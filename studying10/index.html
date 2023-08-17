@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studying 10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="inputs">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="username"
+            id="username"
+            placeholder="Username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="PhoneNo">Phone No:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="PhoneNo"
+            id="PhoneNo"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Gender">Gender : </label>
+          <select class="form-control" name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>UserName</th>
+            <th>Phone Number</th>
+            <th>Gender</th>
+            <th>Delete</th>
+            <th>Update</th>
+          </tr>
+        </thead>
+        <tbody id="info"></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+
