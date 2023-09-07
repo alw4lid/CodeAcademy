@@ -1,0 +1,208 @@
+// void main() {
+// //   String name = "Alwaleed";
+// //   int age = 22;
+// //   var type = "Male";
+// //   print("My name is $name And i m $age Years old");
+
+    
+//   int a = 5;
+//   int b = 3;
+  
+// //   var total = a + b;
+// //   print(total);
+  
+// //   var total = a - b;
+// //   print(total);
+  
+  
+  
+// //   var mtotal = -total;
+// //   print(mtotal);
+  
+  
+  
+// //   var total = a * b;
+// //   print(total);
+  
+  
+  
+// //   var total = a / b;
+// //   print(total);
+  
+  
+  
+// //   var total = a % b;
+// //   print(total);
+  
+  
+// //   var total = a ~/ b;
+// //   print(total);
+
+// //   var c = a > b;
+// //   print(c);
+
+// //   var c = a < b;
+// //   print(c);
+  
+// //     var c = a != b;
+// //     print(c);
+  
+// //     var c = a == b;
+// //     print(c);
+
+// //     var c = a > b;
+// //     print(c);
+
+// //     var c = a <= b;
+// //     print(c);
+
+// //     var c = a >= b;
+// //     print(c);
+  
+// //     var val;
+// //     val??= a-b;
+// //     print(val);
+  
+        
+// //        if(!(a < b) && a > 0 ){
+// //          print("a is less than and greater than 0");
+// //        };
+  
+  
+// //   boolean ans = true;
+  
+// //   var n = ans? 4:5 ;
+        
+//   for(int i = 0; i <= a; i++){
+//     print(i);
+// //     if(i == 2){
+// //       break;
+// //     }
+//     if(i ==2){
+//       continue;
+//     }
+//   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+// }
+
+
+
+// int add(int no1,int no2){
+//             int ans = no1 + no2;
+//              return ans;
+//  }
+// void main(){
+//   var res = add(5,20);
+//   print(res);
+// }
+
+// int sub(int no1,int no2){
+//             int ans = no1 - no2;
+//              return ans;
+//  }
+// void main(){
+//   var res = sub(20,5);
+//   print(res);
+// }
+
+
+// int mult(int no1,int no2){
+//             int ans = no1 * no2;
+//              return ans;
+//  }
+// void main(){
+//   var res = mult(5,20);
+//   print(res);
+// }
+
+
+// int dev(int no1,int no2){
+//             var ans = no2 / no1;
+//              return ans;
+//  }
+// void main(){
+//   var res = dev(5,20);
+//   print(res);
+// }
+
+
+
+// void main(){
+  
+// // Lis of Numbers
+// // List <int> nums = [10,20,30,40,50,60,70,80,90];
+  
+// //   for(int i = 0 ; i < nums.length ; i++){
+// //     print(nums[i]);
+// //     if(nums[i] == 50){
+// //       print("found on index $i");
+// //       break;
+// //     }
+// //   }
+  
+// //   List of Names
+//   List <int> nums = [1,2,3,4,5,6,7,8,9];
+//   List <int> nums1 = [10,20,30,40,50,60,70,80,90];
+
+//   List<int> enen = nums.where((e)=> e.isEven).toList();
+//   print(enen);
+  
+// }
+
+class Car{
+  String? name; // String? => can be String and can be null
+  double? price; // double? => can be double and can be null
+
+//   Constructor
+  Car(String name, double price){
+    this.name = name;
+    this.price = price;
+    
+    
+    
+    
+  }
+  void display(){
+      print("name : ${this.name}");
+      print("Price: ${this.price}");
+      
+      
+    }
+}
+
+void main(){
+  Car carDetail = Car("Corolla", 4500.0);
+  carDetail.display();
+}
+
+
+
+
+
+
